@@ -1,0 +1,147 @@
+/* *{
+  margin: 0;
+  box-sizing: border-box;
+} */
+html{
+  height: 100%;
+  font: 16px/1.5 Poppins, Helvetica;
+}
+body{
+  background-image: url();
+  place-items: center;
+	background-color: #EFF0EB;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  width: 20rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 25px silver;
+  padding: 3rem 3rem 4rem;
+  margin-left: 33rem;
+  margin-top: 50px;
+}
+.avatar{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.avatar__image{
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 5px 10px -2px;
+}
+.avatar__name{
+  font-weight: bold;
+}
+.input{
+  padding: 1rem 1.5rem;
+  background: #312a2a1c;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+.input__email,
+.input__password,
+.form__button{
+  display: block;
+  width: 100%;
+}
+.input__email::placeholder,
+.input__password::placeholder{
+  opacity: 0.25;
+}
+.input__label{
+  font-size: 0.85rem;      
+  font-weight: 600;
+  padding-left: 0.15rem;
+  color: #252525;
+}
+.input__email,
+.input__password{
+  border: 0;
+  height: 1.rem;
+  background: none;
+  font-weight: bold;
+  color: #494949;
+  outline: none;
+	border-bottom: 1px solid transparent;
+}
+.input__email:focus,
+.input__password:focus{
+  border-bottom-color: silver;
+}
+.form__button{
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.25rem;
+  background: dodgerblue;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 5px 5px #696969AA;
+  cursor: pointer;
+  transition: box-shadow 0.25s, transform 0.05s;
+}
+.form__button:hover{
+  box-shadow: 0 5px 15px #696969;
+}
+.form__button:active{
+  transform: translateY(2px);
+}
+.form__button:last-of-type{
+  margin-top: 1rem;
+}
+
+.home-page{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 90vh;
+  width: 100vw;
+background-color: rgb(253, 210, 173);
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-div p{
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  font-size: 25px;
+}
+.home-div .btn{
+  margin-top: 20px;
+  padding: 5px 40px;
+  font-size: 15px;
+}
+.nav-link{
+  color: #fff;
+  font-size: 15px;
+}
+
+.main-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  width: 100vw;
+}
+.container{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.profile-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
